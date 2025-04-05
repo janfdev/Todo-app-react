@@ -1,5 +1,6 @@
 import { RiMastodonLine } from "react-icons/ri";
 import { FaCirclePlus } from "react-icons/fa6";
+import TodoItems from "./TodoItems";
 const Todo = () => {
   return (
     <div className="bg-white place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl">
@@ -31,6 +32,10 @@ const Todo = () => {
       </div>
 
       {/* --------- TodoList ----------- */}
+      <div>
+        <TodoItems text="cihuyy" />
+        <TodoItems text="Learn Coding" />
+      </div>
     </div>
   );
 };
