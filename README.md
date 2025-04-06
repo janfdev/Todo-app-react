@@ -1,7 +1,10 @@
 # Todo App with React and Typescript
 
 ## 🧑‍💻 Tech Stack
-### **Tailwind V4**
+- **Tailwind V4**
+- **React Vite**
+- **React Icons**
+
 
 
 
